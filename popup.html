@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Intentionality Timer Settings</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      width: 320px;
+      margin: 10px;
+    }
+    h1 {
+      font-size: 18px;
+      margin-bottom: 15px;
+    }
+    .url-entry {
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+    }
+    input[type="text"] {
+      flex-grow: 1;
+      padding: 5px;
+      margin-right: 5px;
+    }
+    input[type="number"] {
+      width: 60px;
+      padding: 5px;
+    }
+    button {
+      background-color: #4285f4;
+      color: white;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    button:hover {
+      background-color: #3367d6;
+    }
+    .remove-btn {
+      background-color: #f44336;
+      color: white;
+      border: none;
+      padding: 5px 8px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .remove-btn:hover {
+      background-color: #d32f2f;
+    }
+    .wait-time {
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    .url-container {
+      max-height: 200px;
+      overflow-y: auto;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Mindful Redirect Settings</h1>
+  
+  <div class="url-container" id="url-list"><div>
+  
+  <button id="add-url">Add New URL</button>
+  
+  <div class="wait-time">
+    <label for="wait-time">Wait Time (seconds):</label>
+    <input type="number" id="wait-time" min="5" max="3600">
+  </div>
+  
+  <button id="save-settings">Save Settings</button>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
