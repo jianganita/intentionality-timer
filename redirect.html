@@ -1,19 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <title>Take a Moment...</title>
-  <style rel="stylesheet" href="css/styles.css"></style>
+  <title>Take a moment...</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
   <div class="container">
-    <h1>Take a Moment to Reflect</h1>
+    <div class="large-stars">
+      <div class="large-star" id="large-star-1">
+      </div>
+      <div class="large-star" id="large-star-2">
+      </div>
+      <div class="large-star" id="large-star-3">
+      </div>
+      <div class="large-star" id="large-star-4">
+      </div>
+      <div class="large-star" id="large-star-5">
+      </div>
+      <div class="large-star" id="large-star-6">
+      </div>
+    </div>
+    
+    <h1>Hold up...</h1>
     <p class="message">You were about to visit <span id="site-name" class="site-name">a blocked site</span>.</p>
     <p class="message">Consider whether this is how you want to spend your time right now.</p>
     
     <div class="timer" id="timer">00:00</div>
     
-    <button id="continue-btn" class="continue-btn" disabled>Continue to Site</button>
+    <button id="continue-btn" class="continue-btn" disabled>Continue to site</button>
   </div>
   
   <script src="redirect.js"></script>

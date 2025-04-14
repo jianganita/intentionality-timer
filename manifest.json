@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "Intentionality Timer",
+  "name": "Mindful Redirect",
   "version": "1.0",
   "description": "Redirects specific pages to an intermediary page with a timer before allowing access",
   "permissions": [
@@ -22,6 +22,11 @@
     "48": "assets/icon48.png"
   },
   "web_accessible_resources": [
-    "redirect.html"
+    "redirect.html",
+    "redirect.js",
+    "assets/star1.txt",
+    "assets/star2.txt",
+    "assets/star3.txt",
+    "assets/star4.txt"
   ]
 }
