@@ -1,2 +1,2 @@
 # intentionality-timer
-firefox extension to redirect specific pages to an intermediary page before allowing access.
+A simple Firefox extension that redirects user-specified pages to an intermediary page with a countdown before allowing access.
